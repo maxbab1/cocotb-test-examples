@@ -30,7 +30,8 @@ If your default python is python2, all following commands need to append the 3, 
 Some of that dependencies might be unnecessary for this project, but are very practical for later
 ```
 pip install coloredlogs numpy tqdm PyYAML pyzmq pytest cocotb cocotb-test
-#pip install coloredlogs GitPython numba numpy tqdm scipy PyYAML pyzmq pytest cocotb cocotb-test
+sudo yum install python36-pytest
+#sudo yum search  pytest    # if package is not available
 ```
 
 ## Digital simulator
